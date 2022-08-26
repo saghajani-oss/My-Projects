@@ -1,5 +1,106 @@
-h1{
-    text-align: center;
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: blue;
+  margin-top: 20px;
+  max-width: 800px;
+  min-height: 200px;
+}
+
+.city,
+.date {
+  background-color: greenyellow;
+  padding: 30px;
+  margin-top: 5px;
+  text-align: center;
+  border: 20px solid blue;
+}
+
+#city-name {
+  background-color: greenyellow;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#search-button {
+  background-color: greenyellow;
+  width: 10%;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.day {
+  background-color: rgba(237, 8, 145, 0.942);
+  border: 20px solid blue;
+  padding: 15px 0;
+}
+
+.wheather {
+  background-color: rgb(10, 218, 107);
+  border: 20px solid blue;
+}
+
+.sunny {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.sunny-text {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.degree {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.row-one {
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+}
+
+.fa-chevron-down,
+.fa-angle-up {
+  padding-left: 20px;
+}
+
+.row-two {
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.prediction {
+  background-color: rgb(10, 218, 107);
+  border: 20px solid blue;
+}
+
+.prediction img {
+  width: 100px;
+}
+
+.prediction div {
+  display: inline;
+}
+
+.prediction span {
+  color: white;
+}
+
+.pre-1,
+.pre-2,
+.pre-3 {
+  padding: 20px 110px;
 }
