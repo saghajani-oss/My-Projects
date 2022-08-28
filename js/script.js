@@ -15,6 +15,8 @@ let currentMinute = ("0" + now.getMinutes()).substr(-2);
 let currentTime = document.querySelector("#date");
 currentTime.innerHTML = `${currentDay} ${currentHour}:${currentMinute}`;
 
+
+
 function weatherReport(response) {
   console.log(response);
   let temp = Math.round(response.data.main.temp);
@@ -27,6 +29,10 @@ function weatherReport(response) {
 
   let currentWind = document.querySelector(".row-two");
   currentWind.innerHTML = `Wind: ${Math.round(response.data.wind.speed)}km/h`;
+
+  let weatherStatus = document.querySelector(".weather-status");
+  weatherStatus.innerHTML = response.data.weather[0].description;
+
 }
 
 function enterCityName(event) {

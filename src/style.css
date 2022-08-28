@@ -51,7 +51,7 @@ body {
   padding: 10px 0;
 }
 
-.sunny-text {
+.weather-status {
   text-align: center;
   color: white;
   font-weight: bold;
@@ -81,6 +81,8 @@ body {
   padding-left: 20px;
   margin-top: 40px;
 }
+
+
 
 .prediction {
   background-color: rgb(10, 218, 107);
